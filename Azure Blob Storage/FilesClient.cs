@@ -15,9 +15,9 @@ namespace Azure_Blob_Storage
 
         public FilesClient(string defaultContainer)
         {
-            var endpoint = "https://lms365jondevstorage.blob.core.windows.net/";
+            var endpoint = "https://jondevstorage.blob.core.windows.net/";
 
-            var account = "lms365jondevstorage";
+            var account = "jondevstorage";
 
             var key = Environment.GetEnvironmentVariable("BlobStorageKey", EnvironmentVariableTarget.User);
 
